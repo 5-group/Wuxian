@@ -1,0 +1,9 @@
+
+
+   
+  <view class="word">Hi，今天的你比昨天变得更好了吗？</view>
+   
+    <button class="bottom-click" bindtap="jumpto">点击打卡</button>
+    <button class="bottom-click"  bindtap="choice">实用工具</button>
+    <button class="bottom-click"  bindtap="amusement">轻松一下</button>
+

@@ -1,0 +1,12 @@
+<textarea placeholder="分享一下今天的心情吧！" placeholder-style="color: #949494" class="message" bindinput="bindTextAreaBlur"> </textarea>
+
+
+
+<view class="line-block" style="flex-direction:column;">
+  <view class="upload-txt" bindtap="doUpload">上传图片（可选）</view>
+  <image class="upload-image" mode='widthFix' wx:if="{{isShowPic}}" src="{{fileID}}"></image>
+</view>
+
+<view class="line-button">
+  <button class="submit" style="width:90%; height:100rpx; line-height:100rpx; margin-left:5%; margin-right:5%;padding:0rpx;" bindtap="submitClick">点击分享</button>
+</view>
